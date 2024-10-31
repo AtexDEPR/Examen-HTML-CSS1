@@ -1,0 +1,329 @@
+body{
+  margin: 0;
+  scrollbar-width: 2vw;
+}
+
+header{
+  position: fixed;
+  width: 100vw;
+  z-index: 20;
+}
+
+
+.menu-principal{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eeece2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu-principal nav ul{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  margin-right: 3vw;
+}
+
+.menu-principal nav ul li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+.menu-principal nav ul li a{
+  text-decoration: none;
+  color:black;
+}
+
+.menu-principal nav ul li a:hover{
+  border-bottom: 1px solid black;
+}
+
+.Inicio{
+  height: 100vw;
+}
+
+.Inicio img{
+  width: 100vw;
+  margin-top: 5vw;
+  position: absolute;
+}
+.cuadrado-propiedades h1{
+  font-size: 3.5vw;
+}
+
+.cuadrado-propiedades{
+  background-color: #eeece2;
+  position: absolute;
+  z-index: 1;
+  border: #eeece2 10px solid;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top: 46vw;
+  height: 20vw;
+  width: 60vw;
+  text-align: center;
+}
+
+.cuadrado-propiedades button{
+  margin-left: 1vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 20vw;
+}
+
+#boton-vender-casa{
+  background-color: #eeece2;
+  border-style: none;
+  border: 1px solid black;
+}
+
+#boton-comprar-casa{
+  background-color: #272727;
+  border-style: none;
+  border: 1px solid black;
+  color: #eeece2;
+}
+
+#boton-vender-casa:hover{
+  box-shadow: #272727 3px 3px 20px;
+}
+
+#boton-comprar-casa:hover{
+  box-shadow: #272727 3px 3px 20px;
+}
+
+.contenedor-cuadrado-propiedades{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quienes-somos{
+  color: #eeece2;
+  display: flex;
+  background-color: #272727;
+  height: 70vw;
+  position: relative;
+  bottom: 30.4vw;
+}
+
+.Quienes-somos img{
+  height: 50vw;
+  width: 40vw;
+  position: relative;
+}
+
+.img-quienes-somos{
+  height: 50vw;
+  width: 40vw;
+  margin: 5vw;
+  margin-right: 10vw;
+}
+
+.texto-quienes-somos{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.2vw;
+  display: flex;
+  margin: 10vw;
+  text-align: center;
+  flex-direction: column;
+}
+
+.Anuncios{
+  background-color: #eeece2;
+  height: 90vw;
+  position: relative;
+  bottom: 33.2vw;
+}
+
+.Anuncios p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3vw;
+  padding: 3vw;
+  text-align: center;
+}
+
+.contenedor-anuncios-recientes{
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3vw;
+  height: 80vw;
+}
+
+.contenedor-anuncios-recientes img{
+  width: 24vw;
+  padding: 4vw;
+}
+
+.img-1{
+  border-top: #272727 2PX solid;
+}
+
+.img-2{
+  margin-top: 3vw;
+  border-top: #272727 2PX solid;
+}
+
+.img-3{
+  border-top: #272727 2PX solid;
+}
+
+.img-1 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.img-2 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.img-3 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.Ventas{
+  background-color: #eeece2;
+  height: 90vw;
+  position: relative;
+  bottom: 36.2vw;
+}
+
+.Ventas p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3vw;
+  padding: 3vw;
+  text-align: center;
+}
+
+.contenedor-ventas-recientes{
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3vw;
+  height: 80vw;
+}
+
+.contenedor-ventas-recientes img{
+  width: 24vw;
+  padding: 4vw;
+}
+
+.img-4{
+  border-top: #272727 2PX solid;
+}
+
+.img-5{
+  margin-top: 5vw;
+  border-top: #272727 2PX solid;
+}
+
+.img-6{
+  border-top: #272727 2PX solid;
+}
+
+.img-4 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.img-5 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.img-6 p{
+  margin-top: -2vw;
+  font-size: 2vw;
+}
+
+.Clientes{
+  background-color: #eeece2;
+  height: 65vw;
+  position: relative;
+  bottom: 38.8vw;
+}
+
+.Clientes H1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3vw;
+  padding: 3vw;
+  text-align: center;
+}
+
+.Clientes p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2vw;
+  padding: 3vw;
+  text-align: left;
+}
+
+.contenedor-clientes{
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3vw;
+  height: 80vw;
+}
+
+
+.texto-1{
+  border-top: #272727 2px solid;
+}
+
+.texto-2{
+  border-top: #272727 2PX solid;
+}
+
+.texto-3{
+  border-top: #272727 2PX solid;
+}
+
+.block-espacio{
+  background-color: #eeece2;
+  height: 10vw;
+  position: relative;
+}
+
+.Contacto{
+  background-color: #272727;
+  height: 65vw;
+  position: relative;
+  bottom: 38.8vw;
+}
+
+.Contacto button{
+  margin-left: 1vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 20vw;
+}
+
+.botones2{
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton-vender-casa2{
+  background-color: #272727;
+  border-style: none;
+  border: 1px solid #eeece2;
+  color: #eeece2;
+}
+
+#boton-comprar-casa2{
+  background-color: #eeece2;
+  border-style: none;
+  border: 1px solid #eeece2;
+  color: #000000;
+}
+
+#boton-vender-casa2:hover{
+  box-shadow: #eeece2 3px 3px 20px;
+}
+
+#boton-comprar-casa2:hover{
+  box-shadow: #eeece2 3px 3px 20px;
+}
